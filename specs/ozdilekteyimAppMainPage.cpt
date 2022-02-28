@@ -1,0 +1,39 @@
+Created by testinium on 27.02.2022
+
+This is a concept file with following syntax for each concept.
+# Uygulamayı aç ve alışverişe başla butonuna tıkla
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemana tıkla
+* "com.ozdilek.ozdilekteyim:id/cardView" id'li element var mı?
+
+# Kategoriler sayfasını aç ve kontrol et
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemana tıkla
+* "com.ozdilek.ozdilekteyim:id/relLayTop" id'li element var mı?
+
+# Kategorilerden Kadın seçeneği seçilir ve Pantolon kategorisi açılır
+* xpath "//android.widget.TextView[@text = 'Kadın']" li elemana tıkla
+* xpath "//android.widget.TextView[@text = 'Pantolon']" li elemana tıkla
+
+# Sayfa sonuna doğru scroll Yapılır
+* "2" saniye bekle
+* "2" kere kaydirma yap
+
+# Rastgele bir ürüne tıklanır ve detay sayfası kontrolü yapılır
+* Rastgele bir ürün seç
+* "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" id'li element var mı?
+
+# Favorilere tıklanır ve giriş yapmaya çalışır
+* id "com.ozdilek.ozdilekteyim:id/imgFav" li elemana tıkla
+* "com.ozdilek.ozdilekteyim:id/btnLogin" id'li element var mı?
+* "com.ozdilek.ozdilekteyim:id/etEposta" li alana "deneme@deneme.com" bilgisini gir
+* "com.ozdilek.ozdilekteyim:id/etPassword" li alana "denemesifre" bilgisini gir
+
+# 2 kere geri butonuna basılarak pantolonlar sayfasına dönülür
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemana tıkla
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemana tıkla
+
+# Rastgele bir ürüne tıklanır rastgele beden seçilerek sepete eklenir
+* Rastgele bir ürün seç
+* Rastgele bir beden seç
+* id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" li elemana tıkla
+* "2" saniye bekle
+
